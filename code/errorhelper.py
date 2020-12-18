@@ -23,6 +23,5 @@ if __name__ == "__main__":
     s = s.split(' ')
     for v in s:
         l.append(float(v))
-    a, e = calculate_mean_and_error(v)
-    print("Your value is", a, "+/-", e)
+    calculate_mean_and_error(l)
 
